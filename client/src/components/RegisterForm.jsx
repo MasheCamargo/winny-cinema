@@ -19,7 +19,7 @@ function RegisterForm({ onRegistrationSuccess }) {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/register",
+        "https://cinema-winny.onrender.com/api/register",
         formData,
         {
           headers: {

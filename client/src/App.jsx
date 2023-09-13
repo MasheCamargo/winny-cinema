@@ -13,7 +13,7 @@ function App() {
 
   const fetchUsers = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/api/users");
+      const response = await axios.get("https://cinema-winny.onrender.com/api/users");
 
       if (response.status === 200) {
         const usersData = response.data;
